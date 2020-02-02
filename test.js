@@ -1,8 +1,9 @@
 var readline = require('readline-sync');
 
 
+var nbcom = [false,false]
 
-while(Number.isInteger(nbcom[]) == false){
+while(Number.isInteger(nbcom[0]) == false){
     var commande = readline.question("commande \n");
     var nbcom = commande.split(" ");
     for(i = 0; i <= nbcom.length; i++){

@@ -27,6 +27,10 @@ class Client extends Personne {
         this.budjet -= prix;
     }
 
+    sePlaindre(manager){
+        manager.plainte(this.dernierLieux, this.dernierTrans);
+    }
+
     samuse(){
         console.log("houlala moi est ma famille nous amusons beaucoup dans cette attraction ")
     }

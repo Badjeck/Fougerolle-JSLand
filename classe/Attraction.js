@@ -10,7 +10,15 @@ class Attraction extends Batiment{
     }
 
     callEmploye(listepaticipant, budjet, client){
-        this.employe.recupClient(listepaticipant, budjet, client , this.nom);
+        this.employe.recupClient(listepaticipant, budjet, client , this);
+    }
+    
+    getname(){
+        return this.nom;
+    }
+
+    getemploye(){
+        return this.employe;
     }
 
 }
