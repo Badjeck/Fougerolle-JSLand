@@ -10,7 +10,7 @@ let Ratatouille = new Restaurateur("Ratatouille", "LeRat");
 let Poireau = new Attraction("Poireau", Baptiste , 12, 5);
 let Grec = new Restaurant("Grec",Ratatouille, "Kebab", "Americain", 5, 6);
 
-// Billy.ditbonjour();
+
 // Billy.veuxFaireUnTour(Poireau);
 
 Billy.manger(Grec);
